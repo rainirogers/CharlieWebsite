@@ -1,0 +1,63 @@
+html {
+    --tan: #F5F2EB;
+    --brown: #3B3127;
+    --black: #111;
+}
+
+header {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    border-bottom: solid 1px #111;
+    font-size: 31px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
+}
+
+.grid > * {
+    grid-column: main;
+}
+
+header {
+    background-color: var(--tan);
+    color: var(--black);
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.about {
+    font-size: 15px;
+    background-color: var(--tan);
+    color: var(--black);
+    padding: 0 3rem;
+}
+
+.drinks {
+    font-size: 15px;
+    border-bottom: solid 1px #F5F2EB;
+    background-color: var(--brown);
+    color: var(--tan);
+    padding: 0 3rem;
+    padding-top: 2.5rem;
+}
+
+figure {
+    margin-top: 2rem;
+    margin-bottom: 2.7rem;
+}

@@ -49,15 +49,77 @@ header {
 }
 
 .drinks {
-    font-size: 15px;
     border-bottom: solid 1px #F5F2EB;
     background-color: var(--brown);
     color: var(--tan);
+    font-size: 15px;
+    padding: 0 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2.5rem;
+}
+
+.hotdrinkslist {
+    background-color: var(--brown);
+    color: var(--tan);
+    font-size: 15px;
     padding: 0 3rem;
     padding-top: 2.5rem;
+}
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.colddrinkslist {
+    background-color: var(--brown);
+    color: var(--tan);
+    font-size: 15px;
+    padding: 0 3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.food {
+    border-bottom: solid 1px #111;
+    background-color: var(--tan);
+    color: var(--black);
+    padding: 0 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2.5rem;
+}
+
+.foodlist {
+    background-color: var(--tan);
+    color: var(--black);
+    font-size: 15px;
+    padding: 0 3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
 }
 
 figure {
     margin-top: 2rem;
     margin-bottom: 2.7rem;
+}
+
+@media screen and (min-width: 800px) {
+    .two-column {
+        display: grid;
+        grid-gap: 7.5rem;
+        grid-template-columns: 1fr 1fr;
+    }
 }

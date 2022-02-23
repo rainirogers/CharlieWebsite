@@ -15,7 +15,6 @@ body {
 h1 {
     border-bottom: solid 1px #111;
     font-size: 31px;
-    font-weight: 500;
     margin-bottom: 1rem;
     padding-bottom: 2rem;
     text-align: center;
@@ -26,13 +25,23 @@ h2 {
 }
 
 h3 {
-    padding-top: 3rem;
+    padding-top: 2rem;
     font-size: 25px;
 }
 
 h4 {
     font-size: 25px;
 }
+
+h5 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 15px;
+    padding-bottom: 20rem;
+}
+
 .grid {
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
@@ -55,6 +64,19 @@ header {
     color: var(--black);
     padding: 0 3rem;
     padding-bottom: .75rem;
+}
+
+figure {
+    margin-top: 2rem;
+    margin-bottom: 2.7rem;
+}
+
+@media screen and (min-width: 870px) {
+    .two-column {
+        display: grid;
+        grid-gap: 10rem;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .drinks {
@@ -120,15 +142,12 @@ ul {
     -moz-columns: 2;
 }
 
-figure {
-    margin-top: 2rem;
-    margin-bottom: 2.7rem;
-}
-
-@media screen and (min-width: 870px) {
-    .two-column {
-        display: grid;
-        grid-gap: 15rem;
-        grid-template-columns: 1fr 1fr;
-    }
+.location {
+    border-bottom: solid 1px #F5F2EB;
+    background-color: var(--brown);
+    color: var(--tan);
+    font-size: 15px;
+    padding: 0 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2.5rem;
 }

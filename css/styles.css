@@ -22,9 +22,17 @@ h1 {
 }
 
 h2 {
-    font-weight: 1rem;
+    font-size: 25px;
 }
 
+h3 {
+    padding-top: 3rem;
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 25px;
+}
 .grid {
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
@@ -46,6 +54,7 @@ header {
     background-color: var(--tan);
     color: var(--black);
     padding: 0 3rem;
+    padding-bottom: .75rem;
 }
 
 .drinks {
@@ -116,10 +125,10 @@ figure {
     margin-bottom: 2.7rem;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 870px) {
     .two-column {
         display: grid;
-        grid-gap: 7.5rem;
+        grid-gap: 15rem;
         grid-template-columns: 1fr 1fr;
     }
 }

@@ -1,7 +1,7 @@
 html {
-    --tan: #F5F2EB;
-    --brown: #3B3127;
     --black: #111;
+    --brown: #3B3127;
+    --tan: #F5F2EB;
 }
 
 header {
@@ -22,18 +22,18 @@ h1 {
 
 h2 {
     border-bottom: solid 1px #F5F2EB;
-    position: absolute;
     font-size: 25px;
     margin-bottom: 1rem;
     padding-bottom: 2rem;
+    position: absolute;
 }
 
 h3 {
     border-bottom: solid 1px #111;
-    position: absolute;
     font-size: 25px;
     margin-bottom: 1rem;
     padding-bottom: 2rem;
+    position: absolute;
 }
 
 p {
@@ -51,25 +51,25 @@ p {
 }
 
 header {
-    background-color: var(--tan);
     color: var(--black);
+    background-color: var(--tan);
     padding-top: 2.5rem;
     padding-bottom: 1.5rem;
 }
 
 .about {
-    background-color: var(--tan);
     color: var(--black);
+    background-color: var(--tan);
     padding: 0 3rem;
     padding-bottom: .75rem;
 }
 
 figure {
-    margin-top: 0;
     margin-bottom: 2.7rem;
+    margin-top: 0;
 }
 
-@media screen and (min-width: 870px) {
+@media screen and (min-width: 1080px) {
     .two-column {
         display: grid;
         grid-gap: 10rem;
@@ -78,8 +78,8 @@ figure {
 }
 
 .drinks {
-    background-color: var(--brown);
     color: var(--tan);
+    background-color: var(--brown);
 }
 
 .hotdrinkslist {
@@ -99,8 +99,8 @@ ul {
     background-color: var(--brown);
     color: var(--tan);
     padding: 0 3rem;
-    padding-top: 5.5rem;
     padding-bottom: 3rem;
+    padding-top: 5.5rem;
 }
 
 ul {
@@ -110,16 +110,16 @@ ul {
 }
 
 .food {
-    background-color: var(--tan);
     color: var(--black);
+    background-color: var(--tan);
 }
 
 .foodlist {
-    background-color: var(--tan);
     color: var(--black);
+    background-color: var(--tan);
     padding: 0 3rem;
-    padding-top: 5.5rem;
     padding-bottom: 3rem;
+    padding-top: 5.5rem;
 }
 
 ul {
@@ -129,13 +129,25 @@ ul {
 }
 
 .name {
-    background-color: var(--brown);
     color: var(--tan);
+    background-color: var(--brown);
 }
 
 .location {
-    background-color: var(--brown);
     color: var(--tan);
+    background-color: var(--brown);
+    padding-bottom: 1rem;
     padding-top: 5.5rem;
-    padding-bottom: 3rem;
+}
+
+.contact {
+    color: var(--black);
+    background-color: var(--tan);
+}
+
+.info {
+    color: var(--black);
+    background-color: var(--tan);
+    padding-bottom: 1rem;
+    padding-top: 5.5rem;
 }

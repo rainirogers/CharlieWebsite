@@ -1,34 +1,29 @@
 html {
+    cursor: url("https://gcdnb.pbrd.co/images/zXYYjwXQ8Alu.png?o=1"), auto;
     --black: #111;
     --brown: #3B3127;
     --tan: #F5F2EB;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-html {
-    cursor: url("https://gcdnb.pbrd.co/images/zXYYjwXQ8Alu.png?o=1"), auto;
+    scroll-behavior: smooth;
 }
 
 a {
     color: #111;
+    cursor: url("https://gcdnb.pbrd.co/images/wPQDAxsKm3i8.png?o=1"), auto;
+    display: inline-block;
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     font-style: italic;
     padding: 1em 1.5em;
     text-decoration: none;
-    cursor: url("https://gcdnb.pbrd.co/images/wPQDAxsKm3i8.png?o=1"), auto;
 }
 
 a:hover {
-    color: #F5F2EB;
+    color: #FAFAFA;
     background-color: #3B3127;
 }
 
 a:visited {
-    color: #555;
+    color: #3B3127;
 }
 
 header {
@@ -77,6 +72,13 @@ p {
     grid-column: main;
 }
 
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
 header {
     color: var(--black);
     background-color: var(--tan);
@@ -106,37 +108,25 @@ figure {
 
 .drinks {
     color: var(--tan);
-    background-color: var(--brown);
     cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
+    background-color: var(--brown);
 }
 
 .hotdrinkslist {
     background-color: var(--brown);
     color: var(--tan);
+    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
     padding: 0 3rem;
     padding-top: 5.5rem;
-    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
-}
-
-ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
 }
 
 .colddrinkslist {
     background-color: var(--brown);
     color: var(--tan);
+    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
     padding: 0 3rem;
     padding-bottom: 3rem;
     padding-top: 5.5rem;
-    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
-}
-
-ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
 }
 
 .food {
@@ -152,24 +142,18 @@ ul {
     padding-top: 5.5rem;
 }
 
-ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-}
-
 .name {
     color: var(--tan);
-    background-color: var(--brown);
     cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
+    background-color: var(--brown);
 }
 
 .location {
     color: var(--tan);
+    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
     background-color: var(--brown);
     padding-bottom: 1rem;
     padding-top: 5.5rem;
-    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
 }
 
 .contact {
@@ -182,4 +166,11 @@ ul {
     background-color: var(--tan);
     padding-bottom: 1rem;
     padding-top: 5.5rem;
+}
+
+#raini {
+    color: var(--tan);
+    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
+    background-color: var(--brown);
+    padding-top: 3rem;
 }

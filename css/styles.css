@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+html {
+    cursor: url("https://gcdnb.pbrd.co/images/zXYYjwXQ8Alu.png?o=1"), auto;
+}
+
 a {
     color: #111;
     font-family: 'Work Sans', sans-serif;
@@ -15,6 +19,7 @@ a {
     font-style: italic;
     padding: 1em 1.5em;
     text-decoration: none;
+    cursor: url("https://gcdnb.pbrd.co/images/FubvUE7GiIG4.png?o=1"), auto;
 }
 
 a:visited {
@@ -97,6 +102,7 @@ figure {
 .drinks {
     color: var(--tan);
     background-color: var(--brown);
+    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
 }
 
 .hotdrinkslist {
@@ -104,6 +110,7 @@ figure {
     color: var(--tan);
     padding: 0 3rem;
     padding-top: 5.5rem;
+    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
 }
 
 ul {
@@ -118,6 +125,7 @@ ul {
     padding: 0 3rem;
     padding-bottom: 3rem;
     padding-top: 5.5rem;
+    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
 }
 
 ul {
@@ -148,6 +156,7 @@ ul {
 .name {
     color: var(--tan);
     background-color: var(--brown);
+    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
 }
 
 .location {
@@ -155,6 +164,7 @@ ul {
     background-color: var(--brown);
     padding-bottom: 1rem;
     padding-top: 5.5rem;
+    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
 }
 
 .contact {

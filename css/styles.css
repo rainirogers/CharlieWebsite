@@ -11,8 +11,16 @@ html {
 a {
     font-family: 'Work Sans', sans-serif;
     font-style: italic;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #F5F2EB;
+    color: #111;
+    padding: 1em 1.5em;
 }
 
+a:visited {
+    color: #555;
+}
 
 header {
     font-family: 'Playfair Display', serif;

@@ -4,6 +4,16 @@ html {
     --tan: #F5F2EB;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+}
+
+
 header {
     font-family: 'Playfair Display', serif;
 }

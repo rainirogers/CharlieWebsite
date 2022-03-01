@@ -19,7 +19,12 @@ a {
     font-style: italic;
     padding: 1em 1.5em;
     text-decoration: none;
-    cursor: url("https://gcdnb.pbrd.co/images/FubvUE7GiIG4.png?o=1"), auto;
+    cursor: url("https://gcdnb.pbrd.co/images/wPQDAxsKm3i8.png?o=1"), auto;
+}
+
+a:hover {
+    color: #F5F2EB;
+    background-color: #3B3127;
 }
 
 a:visited {

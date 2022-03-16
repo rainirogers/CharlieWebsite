@@ -1,5 +1,5 @@
 html {
-    cursor: url("https://gcdnb.pbrd.co/images/zXYYjwXQ8Alu.png?o=1"), auto;
+    cursor: url("https://gcdnb.pbrd.co/images/K3c7xz06auip.png?o=1"), auto;
     --black: #111;
     --brown: #3B3127;
     --tan: #F5F2EB;
@@ -54,7 +54,7 @@ html {
 
 a {
     color: #111;
-    cursor: url("https://gcdnb.pbrd.co/images/wPQDAxsKm3i8.png?o=1"), auto;
+    cursor: url("https://gcdnb.pbrd.co/images/rxDIa36ScF5y.png?o=1"), auto;
     display: inline-block;
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
@@ -153,14 +153,15 @@ figure {
 
 .drinks {
     color: var(--tan);
-    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
+    cursor: url(https://gcdnb.pbrd.co/images/rxDIa36ScF5y.png?o=1), auto;
     background-color: var(--brown);
+    padding-left: 4.5rem;
 }
 
 .hotdrinkslist {
     background-color: var(--brown);
     color: var(--tan);
-    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
+    cursor: url(https://gcdnb.pbrd.co/images/rxDIa36ScF5y.png?o=1), auto;
     padding: 0 3rem;
     padding-top: 5.5rem;
 }
@@ -168,7 +169,7 @@ figure {
 .colddrinkslist {
     background-color: var(--brown);
     color: var(--tan);
-    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
+    cursor: url(https://gcdnb.pbrd.co/images/rxDIa36ScF5y.png?o=1), auto;
     padding: 0 3rem;
     padding-bottom: 3rem;
     padding-top: 5.5rem;
@@ -177,6 +178,7 @@ figure {
 .food {
     color: var(--black);
     background-color: var(--tan);
+    padding-left: 4.5rem;
 }
 
 .foodlist {
@@ -189,13 +191,14 @@ figure {
 
 .name {
     color: var(--tan);
-    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
+    cursor: url(https://gcdnb.pbrd.co/images/rxDIa36ScF5y.png?o=1), auto;
     background-color: var(--brown);
+    padding-left: 4.5rem;
 }
 
 .location {
     color: var(--tan);
-    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
+    cursor: url(https://gcdnb.pbrd.co/images/rxDIa36ScF5y.png?o=1), auto;
     background-color: var(--brown);
     padding-bottom: 1rem;
     padding-top: 5.5rem;
@@ -204,6 +207,7 @@ figure {
 .contact {
     color: var(--black);
     background-color: var(--tan);
+    padding-left: 4.5rem;
 }
 
 .info {
@@ -215,7 +219,7 @@ figure {
 
 #raini {
     color: var(--tan);
-    cursor: url(https://gcdnb.pbrd.co/images/Ya9d9tT6U5ZG.png?o=1), auto;
+    cursor: url(https://gcdnb.pbrd.co/images/rxDIa36ScF5y.png?o=1), auto;
     background-color: var(--brown);
     padding-top: 3rem;
 }

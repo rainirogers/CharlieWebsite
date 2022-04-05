@@ -200,6 +200,7 @@ figure {
     color: var(--tan);
     cursor: url(https://gcdnb.pbrd.co/images/rxDIa36ScF5y.png?o=1), auto;
     background-color: var(--brown);
+    padding: 0 3rem;
     padding-bottom: 1rem;
     padding-top: 5.5rem;
 }
@@ -213,6 +214,7 @@ figure {
 .info {
     color: var(--black);
     background-color: var(--tan);
+    padding: 0 3rem;
     padding-bottom: 1rem;
     padding-top: 5.5rem;
 }
@@ -221,5 +223,6 @@ figure {
     color: var(--tan);
     cursor: url(https://gcdnb.pbrd.co/images/rxDIa36ScF5y.png?o=1), auto;
     background-color: var(--brown);
+    padding: 0 3rem;
     padding-top: 3rem;
 }

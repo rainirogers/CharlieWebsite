@@ -219,6 +219,10 @@ figure {
     padding-top: 5.5rem;
 }
 
+.icons {
+    size: 5rem;
+}
+
 #raini {
     color: var(--tan);
     cursor: url(https://gcdnb.pbrd.co/images/rxDIa36ScF5y.png?o=1), auto;
